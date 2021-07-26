@@ -17,11 +17,11 @@
     },
     "TOKEN": {
       "description": "Your bot token, as a string.",
-      "value": ""
+      "value": "1938653571:AAGLIMkq3C4uc42eu_CMfwYRenfXykr0n0A"
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": ""
+      "value": "1033844782"
     },
     "OWNER_USERNAME": {
       "description": "Your username",
@@ -33,7 +33,7 @@
     },
     "URL": {
       "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/",
-      "value": ""
+      "value": "https://hori-san-tgbot.herokuapp.com/"
     },
     "MESSAGE_DUMP": {
       "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
@@ -41,15 +41,15 @@
     },
     "SUDO_USERS": {
       "description": "A space separated list of user_ids which should be considered sudo users",
-      "value": "254318997 683538773 570400686 466337795"
+      "value": "1033844782"
     },
     "SUPPORT_USERS": {
       "description": "A space separated list of user_ids which should be considered support users (can gban/ungban, nothing else)",
-      "value": "254318997 683538773 570400686 466337795"
+      "value": "1033844782"
     },
     "WHITELIST_USERS": {
       "description": "A space separated list of user_ids which should be considered whitelisted - they can't be banned.",
-      "value": "254318997 683538773 570400686 466337795"
+      "value": "1033844782"
     },
     "DONATION_LINK": {
       "description": "Optional: link where you would like to receive donations.",
@@ -73,7 +73,7 @@
     },
     "BAN_STICKER": {
       "description": "Which sticker to use when banning people. Use https://telegram.dog/ShowJsonBot to get the file_id",
-      "value": "CAADBAAD6AMAAkJ_EQNu_RjOszbmnxYE"
+      "value": "AAMCAgADGQEAAQsCiGD-UU_7HTaxOdM3ntX4I74vyew7AAJiBAACpFfRS15ytzgeBTB4AQAHbQADIAQ"
     }
   },
   "addons": [
