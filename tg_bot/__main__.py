@@ -18,9 +18,16 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-hoi {}, my name is Kyouko Hori! 
+╔┓┏╦━━╦┓╔┓╔━━╗ 
+║┗┛║┗━╣┃║┃║╯╰║ 
+║┏┓║┏━╣┗╣┗╣╰╯║ 
+╚┛┗╩━━╩━╩━╩━━~
+My name is Kyouko Hori! 
 
-Im a simple group management bot maintained by [this guy](tg://user?id={}).
+Im a Simple, Not-So Advanced Group Management Bot Maintained by [Th30utlaw](tg://user?id={}).
+
+Thanks To All Devs Of Bot Marie,Which This Bot Uses As Its Base
+And Special Thanks To [Ak](tg://user?id=1139975985)
 
 For more commands click /help...
 
