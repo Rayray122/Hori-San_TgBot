@@ -23,9 +23,9 @@ PM_START_TEXT = """
 ║┏┓║┏━╣┗╣┗╣╰╯║ 
 ╚┛┗╩━━╩━╩━╩━━~~~
 
-my name is Kyouko Hori!
+My Name is Kyouko Hori!
 
-Im a Group Manager Bot Maintained By @Th30utlaw.
+Im a Simple, Not-So PowerFul Group Manager Bot Maintained By @Th30utlaw.
 
 For more commands click /help...
 
