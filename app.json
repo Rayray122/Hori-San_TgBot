@@ -17,11 +17,11 @@
     },
     "TOKEN": {
       "description": "Your bot token, as a string.",
-      "value": "1938653571:AAGLIMkq3C4uc42eu_CMfwYRenfXykr0n0A"
+      "value": ""
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "1033844782"
+      "value": ""
     },
     "OWNER_USERNAME": {
       "description": "Your username",
