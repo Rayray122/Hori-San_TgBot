@@ -35,7 +35,7 @@ def check_flood(bot: Bot, update: Update) -> str:
 
     try:
         chat.kick_member(user.id)
-        msg.reply_text("dont disturb others you are No need for this group anymore...")
+        msg.reply_text("Stop Disturbing Others! Now Get Out!!")
 
         return "<b>{}:</b>" \
                "\n#BANNED" \
@@ -90,7 +90,7 @@ def set_flood(bot: Bot, update: Update, args: List[str]) -> str:
                                                                     mention_html(user.id, user.first_name), amount)
 
         else:
-            message.reply_text("I don't understand what you're saying .... Either use the number or use Yes-No")
+            message.reply_text("I don't get what you're trying to say .... Either use the number or use Yes-No")
 
     return ""
 
@@ -101,7 +101,7 @@ def flood(bot: Bot, update: Update):
 
     limit = sql.get_flood_limit(chat.id)
     if limit == 0:
-        update.effective_message.reply_text("I am not doing message control right now!")
+        update.effective_message.reply_text("Im not Controlling Messages right now!")
     else:
         update.effective_message.reply_text(
             " {} I'll leave the bun to the person who sends the message more at the same time.".format(limit))
