@@ -24,10 +24,10 @@ PM_START_TEXT = """
 ╚┛┗╩━━╩━╩━╩━━~
 My name is Kyouko Hori! 
 
-Im a Simple, Not-So Advanced Group Management Bot Maintained by [Th30utlaw](tg://user?id={}).
+Im a Simple, Not-So Advanced Group Management Bot Maintained by [This Guy](tg://user?id={}).
 
 Thanks To All Devs Of Bot Marie,Which This Bot Uses As Its Base
-And Special Thanks To [Ak](tg://user?id=1139975985)
+And Special Thanks To @fal3n_4ngel
 
 For more commands click /help...
 
