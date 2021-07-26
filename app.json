@@ -1,7 +1,7 @@
 
 {
-  "name": "Marie-2.0 English",
-  "description": "Telegram's sassiest group manager. Modular Telegram group management bot!",
+  "name": "Hori-San_TgBOT",
+  "description": "A Not-So Advanced and Simple Group Management Bot :P",
   "keywords": [
     "telegram",
     "best",
@@ -9,7 +9,7 @@
     "manager",
     "3"
   ],
-  "repository": "hhttps://github.com/TGExplore/Marie-2.0-English",
+  "repository": "hhttps://github.com/Th30utlaw/Hori-San_TgBot",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables",
