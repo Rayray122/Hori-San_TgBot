@@ -25,9 +25,10 @@ PM_START_TEXT = """
 
 My Name is {}! 
 
-Im a group manager bot maintained by  [this guy](tg://user?id={}).
+im a group manager bot maintained by  [this person](tg://user?id={}).
+
 Thanks To All Devs Of Bot Marie,Which This Bot Uses As Its Base
-And Special Thanks To [Ak](@fal3n_4ngel) for all his help.
+And Special Thanks To @fal3n_4ngel for all his help.
 
 For more commands click /help...
 
