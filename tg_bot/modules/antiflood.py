@@ -101,7 +101,7 @@ def flood(bot: Bot, update: Update):
 
     limit = sql.get_flood_limit(chat.id)
     if limit == 0:
-        update.effective_message.reply_text("Im not Controlling Messages right now!")
+        update.effective_message.reply_text("Chat Not Enforcing Flood Control right now!")
     else:
         update.effective_message.reply_text(
             " {} I'll leave the bun to the person who sends the message more at the same time.".format(limit))
