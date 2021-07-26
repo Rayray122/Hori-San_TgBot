@@ -25,7 +25,7 @@ PM_START_TEXT = """
 
 My Name is Kyouko Hori!
 
-Im a Simple, Not-So PowerFul Group Manager Bot Maintained By @Th30utlaw.
+Im a Simple, Not-So PowerFul Group Management Bot Maintained By @Th30utlaw.
 
 For more commands click /help...
 
