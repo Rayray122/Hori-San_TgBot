@@ -204,7 +204,7 @@ TOSS = (
 
 @run_async
 def roll(bot: Bot, update: Update)
-    context.bot.sendDice(update.effective_chat.id)
+    update.message.reply_text(random.choice(range(1))
 	
 def toss(bot: Bot, update: Update):
     update.message.reply_text(random.choice(TOSS))
