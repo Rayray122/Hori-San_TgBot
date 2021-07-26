@@ -203,7 +203,7 @@ TOSS = (
 )
 
 @run_async
-def roll(bot: Bot, update: Update):
+def dice(update, context):
     context.bot.sendDice(update.effective_chat.id)
 	
 def toss(bot: Bot, update: Update):
