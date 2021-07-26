@@ -27,7 +27,7 @@ My name is Kyouko Hori!
 Im a Simple, Not-So Advanced Group Management Bot Maintained by [This Guy](tg://user?id={}).
 
 Thanks To All Devs Of Bot Marie,Which This Bot Uses As Its Base
-And Special Thanks To @fal3n_4ngel
+And Special Thanks To "@fal3n_4ngel"
 
 For more commands click /help...
 
