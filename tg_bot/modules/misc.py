@@ -130,8 +130,10 @@ HIT = (
 )
 
 WARM_TEMPLATES = (
-    "{user1} kisses {user2} with Love",
-    "{user1} hugs {user2} with Love."
+    "{user1} kisses {user2} with Love💕",
+    "{user1} hugs {user2} warmly."
+    "{user1} pats on {user2} 's head with kindness."
+    "{user1} hits {user2} on the face with Love❤️."
 )
 
 GMAPS_LOC = "https://maps.googleapis.com/maps/api/geocode/json"
