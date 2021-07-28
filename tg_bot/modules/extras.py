@@ -200,6 +200,7 @@ def toss(bot: Bot, update: Update):
 @run_async
 def abuse(bot: Bot, update: Update):
     # reply to correct message
+    msg = update.effective_message
     reply_text = msg.reply_to_message.reply_text if msg.reply_to_message else msg.reply_text
     reply_text(random.choice(ABUSE_STRINGS))
 	
