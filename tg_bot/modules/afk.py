@@ -34,7 +34,7 @@ def no_longer_afk(bot: Bot, update: Update):
 
     res = sql.rm_afk(user.id)
     if res:
-        update.effective_message.reply_text("OwO, Look Who Just Came Back\n Welcome Back {} !".format(update.effective_user.first_name))
+        update.effective_message.reply_text("OwO, Look Who Just Came Back\n{} No Longer AFK !".format(update.effective_user.first_name))
 
 
 @run_async
