@@ -129,6 +129,11 @@ HIT = (
     "bashes",
 )
 
+WARM_TEMPLATES = (
+    "{user1} kisses {user2} with Love",
+    "{user1} hugs {user2} with Love."
+)
+
 GMAPS_LOC = "https://maps.googleapis.com/maps/api/geocode/json"
 GMAPS_TIME = "https://maps.googleapis.com/maps/api/timezone/json"
 
@@ -175,7 +180,41 @@ def slap(bot: Bot, update: Update, args: List[str]):
 
     reply_text(repl, parse_mode=ParseMode.MARKDOWN)
 
+@run_async
+def warm(bot: Bot, update: Update, args: List[str]):
+    msg = update.effective_message  # type: Optional[Message]
 
+    # reply to correct message
+    reply_text = msg.reply_to_message.reply_text if msg.reply_to_message else msg.reply_text
+
+    # get user who sent message
+    if msg.from_user.username:
+        curr_user = "@" + escape_markdown(msg.from_user.username)
+    else:
+        curr_user = "[{}](tg://user?id={})".format(msg.from_user.first_name, msg.from_user.id)
+
+    user_id = extract_user(update.effective_message, args)
+    if user_id:
+        warmed_user = bot.get_chat(user_id)
+        user1 = curr_user
+        if warmed_user.username:
+            user2 = "@" + escape_markdown(warmed_user.username)
+        else:
+            user2 = "[{}](tg://user?id={})".format(warmed_user.first_name,
+                                                   warmed_user.id)
+
+    # if no target found, bot targets the sender
+    else:
+        user1 = "[{}](tg://user?id={})".format(bot.first_name, bot.id)
+        user2 = curr_user
+
+    temp = random.choice(WARM_TEMPLATES)
+
+    repl = temp.format(user1=user1, user2=user2)
+
+    reply_text(repl, parse_mode=ParseMode.MARKDOWN)
+    
+    
 @run_async
 def get_bot_ip(bot: Bot, update: Update):
     """ Sends the bot's IP address, so as to be able to ssh in if necessary.
