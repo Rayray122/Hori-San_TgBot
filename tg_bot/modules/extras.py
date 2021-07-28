@@ -197,6 +197,8 @@ EARS = [
     ['(∩', ')⊃━☆ﾟ.*'],
 ]
 
+DICE = ["CAADAgAD3MYBAAFji0YMsbUSFEouGv8C","CAADAgAD3cYBAAFji0YM608pO-wjAlEC","CAADAgAD3sYBAAFji0YMVHH9hav7ILkC","CAADAgAD38YBAAFji0YMHEUTINW7YxcC","CAADAgAD4MYBAAFji0YMSLHz-sj_JqkC","CAADAgAD4cYBAAFji0YM75p8zae_tHoC"] 
+
 TOSS = (
     "Heads",
     "Tails",
@@ -205,7 +207,7 @@ TOSS = (
 @run_async
 def roll(bot: Bot, update: Update):
     update.message.reply_text(random.choice(range(1, 7)))
-    bot.sendDice(update.effective_chat.id)
+    update.message.reply_sticker(random.choice(DICE))
 
 def toss(bot: Bot, update: Update):
     update.message.reply_text(random.choice(TOSS))
