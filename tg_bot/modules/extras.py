@@ -7,9 +7,9 @@ from telegram.ext import Filters, MessageHandler, run_async
 from tg_bot import dispatcher
 from tg_bot.modules.disable import DisableAbleCommandHandler
 
-ABUSE_STRINGS = (
-    "Bakka"
-)
+ABUSE_STRINGS = [
+    "Bakka","Bakka!"
+]
 
 EYES = [
     ['⌐■', '■'],
