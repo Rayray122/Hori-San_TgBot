@@ -208,7 +208,9 @@ def abuse(bot: Bot, update: Update):
 def shrug(bot: Bot, update: Update):
     # reply to correct message
     reply_text = update.effective_message.reply_to_message.reply_text if update.effective_message.reply_to_message else update.effective_message.reply_text
-    reply_text("¯\_(ツ)_/¯")	
+    reply_text("¯\_(ツ)_/¯")
+    reply_sticker = update.effective_message.reply_to_message.reply_sticker if update.effective_message.reply_to_message else update.effective_message.reply_sticker
+    reply_sticker("CAADBQADHgIAAkaFSFW63744N_w6jQI")
 	
 @run_async
 def bluetext(bot: Bot, update: Update):
