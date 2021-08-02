@@ -487,7 +487,6 @@ GDPR_HANDLER = CommandHandler("gdpr", gdpr, filters=Filters.private)
 
 STICKERID_HANDLER = DisableAbleCommandHandler("stickerid", stickerid)
 GETSTICKER_HANDLER = DisableAbleCommandHandler("getsticker", getsticker)
-GETSTICKER_HANDLER = DisableAbleCommandHandler("kang", getsticker)
 
 
 dispatcher.add_handler(ID_HANDLER)
