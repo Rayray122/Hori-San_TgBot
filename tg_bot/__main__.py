@@ -23,7 +23,7 @@ PM_START_TEXT = """
 ║┏┓║┏━╣┗╣┗╣╰╯║ 
 ╚┛┗╩━━╩━╩━╩━━~~~
 
-My Name is Kyouko Hori!
+My Name is RUXY!
 
 Im a Simple, Not-So PowerFul Group Management Bot Maintained By @Th30utlaw.
 
